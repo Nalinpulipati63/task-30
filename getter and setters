@@ -1,0 +1,20 @@
+getter nd setter 
+
+public class Mobile 
+ // getter 
+ private string name;
+ {
+ return name;
+ }
+
+//setter 
+public void setName(String newName);{
+ this name=new Name;
+ }
+ public static void main(String args[]);
+ MObile my.obj=newMObile;
+name my.obj=STR;
+System.out.println(myobj.name);
+}
+}
+ 
