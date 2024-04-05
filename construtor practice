@@ -1,0 +1,35 @@
+constructor in java 
+ class Bike{
+ Bike()
+{
+System.out.println(" Bike is created..");
+}
+public static void main(String args[])
+{
+Bike Obj=new Bike();
+}
+ }
+
+2 practice :
+class Student 
+{
+ String name;
+Student()
+{
+name="ABC";
+rno=123;
+}
+Student(String str,int n)
+{
+name=str;
+rno=n;
+}
+public static void main(String args[])
+{
+   Student s1=new Student();
+  Student s2=new Student();
+    System.out.println(s1.name);
+    System.out.println(s1.rno);
+    System.out.println(s2.name);
+     System.out.println(s2.rno);
+}
