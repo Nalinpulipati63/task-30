@@ -1,0 +1,14 @@
+public class Test
+{
+public static void main(String args [])
+{
+  int s=30;
+  int t=40;
+ if(x==30)
+   {
+   if(y==40){
+     System.out.println("s=30 and y=40");
+    }
+   }
+  }
+}
