@@ -1,0 +1,42 @@
+purpose of making constr a as private? 
+// we cannot access the instance of that class 
+ and also we cannot create an object
+
+task 2:
+can i make constructor as final - impact
+Constructor should not be used as a final
+
+        package in.java.constructor;
+
+        public class ConNp {
+        	int a ;
+        	final private ConstEg1() {
+        		System.out.println("final constructor");
+        		
+        	}
+        	public static void main(String[] args) {
+        		ConNp obj = new ConNp();
+        		System.out.println(obj.a);
+        	}
+
+          task 3:
+          class empolyee, in main method - if a craete 5 obj - it should print 5 as outp
+
+    class EmpEmplpyee{
+    
+        private static int i = 0;
+    
+        public static void main(String[] args){
+            Emp obj1 = new Employee();
+            Emp.i += 1;
+            Emp obj2 = new Employee();
+            Emp.i += 1;
+            Emp obj3 = new Employee();
+            Emp.i += 1;
+            Emp obj4 = new Employee();
+            Emp.i += 1;
+            Emp obj5 = new Employee();
+            Emp.i += 1;
+            System.out.println(Employee.i);
+        }
+    }
