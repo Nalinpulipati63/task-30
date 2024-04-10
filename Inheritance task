@@ -1,0 +1,99 @@
+task :1 
+// what if my child class has lesser access modifier? // private void walk()
+
+If we use public modifer we can access we can access the parent class 
+otherwise it will be shows error and child class must and should be in private class only 
+
+task :2 
+Calc, scientific calc, programmer calc - implement complete inheritance(overriding,uniq methd...)
+
+Calculators (Parent Class)
+
+     Addition() {}
+     Substract() {}
+     Multiplication() {}
+     Division() {}
+
+Standard   (Child Class)
+     Addition() {}
+     Substract() {}
+     Multiplication() {}
+     Division() {}
+     Percentage() {}  ---Unique Method
+
+Scientific (Child Class)
+
+     subtracy() {} 
+     addition() {}
+     Multiplication() {}
+     Division() {}
+     fractions() {} ----Unique Method
+     exponential Functions() {} ----unique Method
+
+programmer  (Child Class)
+
+     subtract() {}
+     addition() {}
+     Multiplication() {}
+     Division() {}
+     Binary decimal() {} ----Unique Method
+     Hex.operation() {} ---Unique Method
+
+3. Radio, Tv, Dvd Player - identify the Apt parent class and implement inheritance
+
+Electronic Broadcast (Parent class)
+
+    music() {}
+    Play() {}
+    Stop() {}
+    start() {}
+    pause() {}
+
+Radio (Child class)
+    
+    Audio() {}
+    Recording() {}
+    Play() {}
+    Stop() {}
+    music cd() {} ---- unique method
+
+TV  (Child class)
+    Music() {}
+    Play() {}
+    Stop() {}
+    volume() {}
+    Video() {} ---- unique method
+    ScreenRecording() {} ---unique method
+
+DVD Player (Child class)
+    
+    Audio() {}
+    Play() {}
+    Stop() {}
+    pause(){}
+    volume() {}
+    compact Disc() {} --- unique method
+    
+
+4. Admin, Manager, Finance - idetify the parent class and implement inheritance
+
+Department (Parent class)
+     login id() {}
+     logout() {}  
+     campany() {}
+
+Manager  (child class)
+     login id() {} 
+     logout() {} 
+     campany() {}
+     employees data() {} ---Unique method
+     
+Finance  (child class)
+
+     loans() {}
+     interests() {}
+     schemes() {}
+     campany() {}
+     accounts() {} --- unique method
+     salary() {} --- unique method
+     
